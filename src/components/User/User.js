@@ -1,9 +1,10 @@
 import React from 'react';
 
-function User() {
+function User({ user }) {
     return (
         <div>
-            user
+            <p>Witaj, {user.name}</p>
+            <p>Twój e-mail: {user.email}</p>
         </div>
     )
 }
