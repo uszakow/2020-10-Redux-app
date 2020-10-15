@@ -41,8 +41,7 @@ class Login extends Component {
                     <button type="submit" className="login-button-submit">Zaloguj się</button>
                 </form>
                 :
-                <div>
-                    {console.log(this.props.logoutUserDto)}
+                <div>                    
                     <p>Witaj, {this.props.user.name}</p>
                     <button onClick={this.props.logoutUserDto}>Wyloguj</button>
                 </div>
